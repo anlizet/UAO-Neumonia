@@ -57,16 +57,6 @@ Los botones llaman métodos contenidos en otros scripts.
 
 Script que lee la imagen en formato DICOM para visualizarla en la interfaz gráfica. Además, la convierte a arreglo para su preprocesamiento.
 
-## preprocess_img.py
-
-Script que recibe el arreglo proveniento de read_img.py, realiza las siguientes modificaciones:
-
-- resize a 512x512
-- conversión a escala de grises
-- ecualización del histograma con CLAHE
-- normalización de la imagen entre 0 y 1
-- conversión del arreglo de imagen a formato de batch (tensor)
-
 ## load_model.py
 
 Script que lee el archivo binario del modelo de red neuronal convolucional previamente entrenado llamado 'WilhemNet86.h5'.
@@ -74,6 +64,16 @@ Script que lee el archivo binario del modelo de red neuronal convolucional previ
 ## grad_cam.py
 
 Script que recibe la imagen y la procesa, carga el modelo, obtiene la predicción y la capa convolucional de interés para obtener las características relevantes de la imagen.
+
+
+---
+
+## Como parte del ejercisio se proponen 3 test
+
+ejecute las siguientes instrucciones:
+  pip install pytest
+  pytest test_detector.py
+  pytest test_load_image_field.py
 
 ---
 
