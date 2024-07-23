@@ -1,0 +1,12 @@
+pyautogui
+pillow
+tk
+tensorflow
+pydicom
+img2pdf
+opencv-python
+matplotlib
+pandas
+tensorflow
+python-xlib
+pytest
