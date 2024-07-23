@@ -71,8 +71,11 @@ Script que recibe la imagen y la procesa, carga el modelo, obtiene la predicció
 ## Como parte del ejercisio se proponen 3 test
 
 ejecute las siguientes instrucciones:
+
   pip install pytest
+  
   pytest test_detector.py
+  
   pytest test_load_image_field.py
 
 ---
