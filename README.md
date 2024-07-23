@@ -78,6 +78,8 @@ ejecute las siguientes instrucciones:
   
   pytest test_load_image_field.py
 
+  pytest test_predict.py  
+
 ---
 
 ## Acerca del Modelo
